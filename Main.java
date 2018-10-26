@@ -16,7 +16,7 @@ public class Main {
 
 
         String importantInfo2[] = {
-            " ",
+            " hello",
             " "
         };
         for (int i = 0;
