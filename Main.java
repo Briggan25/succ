@@ -11,7 +11,8 @@ public class Main {
           scan.close();          
           Scanner in = new Scanner(System.in);  
           System.out.print("What is your Name?");    
-          String name = in.next();              
+          String name = in.next();
+          System.out.print("Hello"+" "+ name + " ");              
           System.out.print("How old are you?");  
           int age = in.nextInt();            
           in.close();  
