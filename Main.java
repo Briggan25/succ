@@ -12,10 +12,8 @@ public class Main {
           Scanner in = new Scanner(System.in);  
           System.out.print("What is your Name?");    
           String name = in.next();              
-          System.out.print("How old are you?");  
+          System.out.print("How old are you, "+name+"?");  
           int age = in.nextInt();            
           in.close();  
   }
 }
-
- 
