@@ -19,7 +19,7 @@ public class Main {
           String answer = "Well, now that I have your basic information, let's chat.";
           nextin = scan.nextLine();
           if (nextin.contains("Who are you") || nextin.contains("who are you")){
-            answer = "A poorly made chat bot, I said that didn't I?";
+            answer = "A poorly made chat bot. I said that didn't I?";
           }
           System.out.println(answer);
   }
