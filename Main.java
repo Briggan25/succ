@@ -22,5 +22,5 @@ public class Main {
             answer = "A poorly made chat bot. I said that didn't I?";
           }
           System.out.println(answer);
-  }
+  } 
 }
