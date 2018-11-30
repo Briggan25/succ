@@ -16,8 +16,8 @@ Scanner reader = new Scanner(System.in);
           System.out.println("How old are you?");  
           int age = in.nextInt();
           System.out.println("Well, now that I have your basic information, let's chat.");
-          String who = reader.nextLine();
           
+          String who = reader.nextLine();
           if (who.equals("Who are you") || who.equals("who are you")){
           String a1 = "A poorly made chat bot, I said that didn't I?";
           System.out.println("hello");
