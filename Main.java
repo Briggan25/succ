@@ -17,6 +17,7 @@ public class Main {
           System.out.println("How old are you?");  
           int age = in.nextInt();
           String answer = "Well, now that I have your basic information, let's chat.";
+          System.out.println(answer);
           nextin = scan.nextLine();
           if (nextin.contains("Who are you") || nextin.contains("who are you")){
             answer = "A poorly made chat bot. I said that didn't I?";
