@@ -1,14 +1,13 @@
 import java.util.*;  
 public class Main {
   public static void main(String args[]){                       
-          String s = "Hello, This is, Data, I am a poorly made chat bot.";  
+          String start = "Hello, This is, Data, I am a poorly made chat bot.";  
           //Create scanner Object and pass string in it  
-          Scanner scan = new Scanner(s);  
-          //Check if the scanner has a token  
-          System.out.println("Boolean Result: " + scan.hasNext());  
+          Scanner scan = new Scanner(start);  
+Scanner reader = new Scanner(System.in);
           //Print the string  
           String nextin = scan.nextLine();
-          System.out.println("String: " +nextin);  
+          System.out.println(nextin);  
           scan.close();          
           Scanner in = new Scanner(System.in);  
           System.out.println("What is your name?");    
@@ -16,11 +15,16 @@ public class Main {
           System.out.println("Hello, "+ name + ". ");                          
           System.out.println("How old are you?");  
           int age = in.nextInt();
-          String answer = "Well, now that I have your basic information, let's chat.";
-          nextin = scan.nextLine();
-          if (nextin.contains("Who are you") || nextin.contains("who are you")){
-            answer = "A poorly made chat bot. I said that didn't I?";
+          System.out.println("Well, now that I have your basic information, let's chat.");
+          String who = reader.nextLine();
+          
+          if (who.equals("Who are you") || who.equals("who are you")){
+          String a1 = "A poorly made chat bot, I said that didn't I?";
+          System.out.println("hello");
+          System.out.println(a1);
           }
-          System.out.println(answer);
-  } 
-} 
+
+          String q1 = in.next();
+
+  }
+}
